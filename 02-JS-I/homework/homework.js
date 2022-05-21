@@ -267,9 +267,9 @@ function esVocal(letra){
   //Escribe tu código aquí
   var vocal = letra.toLowerCase();
   if (vocal.length > 1 || (vocal != "a" && vocal != "e" && vocal != "i" && vocal != "o" && vocal != "u")) {
-    return "Dato Incorrecto"  
+    return "Dato incorrecto"  
   } else {
-    return "Es Vocal"
+    return "Es vocal"
   }
 }
 
