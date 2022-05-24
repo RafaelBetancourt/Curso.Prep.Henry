@@ -86,7 +86,7 @@ function colors(color) {
       return "This is orange";
       break;
     default:
-      return "This is not a color";
+      return "Color not found";
   }
 }
 
@@ -164,7 +164,7 @@ function operadoresLogicos(num1, num2, num3) {
     return "Hay negativos";
   }
   if (num1 > 0 && num1 > num2 && num1 > num3) {
-    return "Numero 1 es mayor y positivo";
+    return "Número 1 es mayor y positivo";
   }
   if (num3 > num2 && num3 > num1) {
     return num3 + 1;
@@ -180,12 +180,12 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
-  var primo = true;
+  var primo = "true";
   for (var i = 1; i <= numero; i++) {
    
       if (i != 1 && i != numero) {
         if (numero % i === 0 ) {
-          primo = false;
+          primo = "falso";
           i = numero + 1;
       }
     }
