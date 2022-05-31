@@ -283,9 +283,9 @@ function continueStatement(numero) {
   // Tu código:
   let sumas = [];
   for (i = 0; i < 10; i++) {
-    numero = numero + 2;
     if (i === 5) {
     continue;}
+    numero = numero + 2;
     sumas.push(numero);
   }
   return sumas;
