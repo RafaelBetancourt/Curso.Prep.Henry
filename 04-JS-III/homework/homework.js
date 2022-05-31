@@ -104,7 +104,7 @@ function promedioResultadosTest(resultadosTest) {
     suma = (suma + resultadosTest[i]);
   }
   resultado = suma / resultadosTest.length;
-  return resultado.toFixed(2);
+  return resultado;
 }
 
 
