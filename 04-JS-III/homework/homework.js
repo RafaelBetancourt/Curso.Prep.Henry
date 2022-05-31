@@ -282,7 +282,7 @@ function continueStatement(numero) {
   //Pista: usá el statement 'continue'
   // Tu código:
   let sumas = [];
-  for (i = 0; i <= 10; i++) {
+  for (i = 0; i < 10; i++) {
     numero = numero + 2;
     if (i === 5) {
     continue;}
